@@ -16,7 +16,7 @@ Some applications from the Gmsh Python interface. Reference was taken from:
 
 ## Example Mesh: Inhomogeneous Compression Problem
 
-![Inhomogeneous compression problem; left: problem description; right: deformed mesh at the limit point (Q2, n_ele = 1125, γ_c = 1.03).](images/Screenshot 202025-02-09 20184141_Bieber.png)
+![Inhomogeneous compression problem; left: problem description; right: deformed mesh at the limit point (Q2, n_ele = 1125, γ_c = 1.03).](.images/Screenshot 202025-02-09 20184141_Bieber.png)
 
 
 This figure shows one of the meshes which will be defined in this repository. It illustrates an inhomogeneous compression problem, where you can see the deformation of a rectangular domain under an applied load.  
