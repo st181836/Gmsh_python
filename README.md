@@ -5,7 +5,8 @@ Some applications from the Gmsh Python interface. Reference was taken from:
 ---
 ## How to start using the Gmsh python API
 Follow the steps from the README.txt of the [official tutorial](https://gitlab.onelab.info/gmsh/gmsh/-/tree/master/tutorials/python?ref_type=heads)
-All python tutorials from the documentation can be found here
+
+All Python tutorials from the documentation can be found here.
 
 ---
 
@@ -13,7 +14,7 @@ All python tutorials from the documentation can be found here
 *(Text below taken from **Section 13** in [Gmsh documentation](https://gmsh.info/doc/texinfo/gmsh.html#Gmsh-application-programming-interface))*
 
 
----
+
 
 > **How do I define boundary conditions or material properties in Gmsh?**  
 > By design, Gmsh does not try to incorporate every possible definition of boundary conditions or material properties—this is a job best left to the solver. Instead, Gmsh provides a simple mechanism to tag groups of elements, and it is up to the solver to interpret these tags as boundary conditions, materials, etc. Associating tags with elements in Gmsh is done by defining physical groups (Physical Points, Physical Curves, Physical Surfaces and Physical Volumes). See the reference manual as well as the tutorials (in particular t1) for a detailed description and some examples.  
