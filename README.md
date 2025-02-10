@@ -5,12 +5,13 @@ Some applications from the Gmsh Python interface. Reference was taken from:
 ---
 ## How to start using the Gmsh python API
 Follow the steps from the README.txt of the [official tutorial](https://gitlab.onelab.info/gmsh/gmsh/-/tree/master/tutorials/python?ref_type=heads)
+All python tutorials from the documentation can be found here
 
 ---
 
 ## Defining Gmsh properties  
 *(Text below taken from **Section 13** in [Gmsh documentation](https://gmsh.info/doc/texinfo/gmsh.html#Gmsh-application-programming-interface))*
-All python tutorials from the documentation can be found here
+
 
 ---
 
