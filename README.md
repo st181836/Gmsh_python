@@ -28,3 +28,12 @@ All Python tutorials from the documentation can be found here.
 
 
 This figure shows one of the meshes which will be defined in this repository. It illustrates an inhomogeneous compression problem, where you can see the deformation of a rectangular domain under an applied load.  
+Paper: DOI: 10.1002/nme.7224
+
+### Approach 1: Use mesh size field
+By defing a box mesh field, a (sudden) step change in element sizes can be imposed. The figure below has 1/3 of the target mesh size inside the refinement box.
+![Inhomogeneous compression problem with mesh size fields](Images/inhomoComProblem_usingMeshFields.png)
+
+### Approach 2: Create sectors of structured meshes
+When setting a transfinite surface, the number of nodes on the connecting edges need to match. Therefore, it is necessary to subdivide the domain into parts to match the number of nodes on each side. Between the refinement box and the rest of the domain is a padding, that connects the refined edges to the unrefined edges
+![Inhomogeneous compression problem with mesh transfinite entities](Images/inhomoComProblem_withTransfiniteCurves.png)
